@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\CenterStar.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CenterStar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap8.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap13.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap14.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap17.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap18.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap19.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap20.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap21.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap22.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap23.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap24.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap25.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap26.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap27.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap28.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap29.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap30.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap31.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap33.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap34.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap35.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap36.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap37.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap38.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap39.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap40.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap41.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap42.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap43.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap44.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap45.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap46.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap47.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap48.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap49.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap50.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap51.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap52.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap53.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap54.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap55.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap56.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap57.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap58.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap59.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap60.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap61.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap62.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CenterStar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CenterStarDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_P_add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="history.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_P_detail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_I_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinHeaderCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_I_detail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_I_history.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_O_add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_C_add.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_C_detail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="M_O_detail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CenterStar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CenterStarDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_P_add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="history.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_P_detail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_I_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinHeaderCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_I_detail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_I_history.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_O_add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_C_add.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_C_detail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="M_O_detail.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CenterStar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

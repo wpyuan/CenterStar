@@ -1,0 +1,5 @@
+ip:localhost
+SQL_account:root
+SQL_password:123
+SQL_name:inventory
+port:3307

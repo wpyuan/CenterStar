@@ -1,0 +1,192 @@
+﻿生成启动时间为 2017/6/2 11:24:34。
+     1>项目“d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\CenterStar\CenterStar.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\CenterStar.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\CenterStar.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MySQL\MySQL Server 5.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CenterStar.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\MySQL\MySQL Server 5.5\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\CenterStar.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CenterStar.cpp CenterStarDlg.cpp Customer.cpp Database.cpp DLEdit.cpp history.cpp Inventory.cpp MyListCtrl.cpp M_C_add.cpp M_C_detail.cpp M_I_detail.cpp M_I_history.cpp M_I_io.cpp M_O_add.cpp M_O_detail.cpp M_P_add.cpp M_P_detail.cpp Order.cpp Product.cpp SkinHeaderCtrl.cpp
+         CenterStar.cpp
+         CenterStarDlg.cpp
+     1>CenterStarDlg.cpp(255): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CenterStarDlg.cpp(255): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CenterStarDlg.cpp(257): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(257): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(258): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(267): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CenterStarDlg.cpp(268): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CenterStarDlg.cpp(268): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>CenterStarDlg.cpp(270): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(270): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(271): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>CenterStarDlg.cpp(282): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(282): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(282): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(282): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(319): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(319): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(319): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+     1>CenterStarDlg.cpp(319): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+         Customer.cpp
+         Database.cpp
+     1>Database.cpp(8): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>Database.cpp(11): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : 参见“fscanf”的声明
+         DLEdit.cpp
+         history.cpp
+     1>history.cpp(46): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>history.cpp(51): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         Inventory.cpp
+     1>Inventory.cpp(56): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Inventory.cpp(58): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Inventory.cpp(95): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Inventory.cpp(97): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Inventory.cpp(131): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Inventory.cpp(133): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         MyListCtrl.cpp
+         M_C_add.cpp
+         M_C_detail.cpp
+         M_I_detail.cpp
+     1>M_I_detail.cpp(584): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(586): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(594): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(596): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(596): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(604): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(606): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(606): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(616): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(616): warning C4244: “参数”: 从“float”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(618): warning C4244: “参数”: 从“double”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(618): warning C4244: “参数”: 从“float”转换到“INT”，可能丢失数据
+     1>M_I_detail.cpp(628): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(638): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(886): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(886): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(888): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(898): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(898): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(900): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(919): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(919): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(921): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(931): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(931): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(933): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(1056): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1056): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1058): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1058): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1060): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(1133): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1133): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1135): warning C4244: “参数”: 从“double”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1135): warning C4244: “参数”: 从“int”转换到“Gdiplus::REAL”，可能丢失数据
+     1>M_I_detail.cpp(1137): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>M_I_detail.cpp(1727): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1733): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1747): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1784): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1819): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1843): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>M_I_detail.cpp(1879): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         M_I_history.cpp
+         M_I_io.cpp
+         M_O_add.cpp
+         M_O_detail.cpp
+         M_P_add.cpp
+     1>M_P_add.cpp(144): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(145): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(145): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(154): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(155): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(155): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(158): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(158): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(158): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(158): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(189): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(189): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(189): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(189): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(210): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(210): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(210): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(210): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(233): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(233): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(233): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(233): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(254): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(254): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(254): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(254): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(285): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(285): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(285): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(285): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(311): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(311): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(311): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(311): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(337): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(337): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(337): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(337): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>M_P_add.cpp(359): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         M_P_detail.cpp
+         Order.cpp
+         Product.cpp
+         SkinHeaderCtrl.cpp
+     1>SkinHeaderCtrl.cpp(16): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\CenterStar.res" CenterStar.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\Release\CenterStar.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\MySQL\MySQL Server 5.5\lib" libmysql.lib /MANIFEST /ManifestFile:"Release\CenterStar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\Release\CenterStar.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\Release\CenterStar.lib" /MACHINE:X86 Release\CenterStar.res
+         Release\CenterStar.obj
+         Release\CenterStarDlg.obj
+         Release\Customer.obj
+         Release\Database.obj
+         Release\DLEdit.obj
+         Release\history.obj
+         Release\Inventory.obj
+         Release\MyListCtrl.obj
+         Release\M_C_add.obj
+         Release\M_C_detail.obj
+         Release\M_I_detail.obj
+         Release\M_I_history.obj
+         Release\M_I_io.obj
+         Release\M_O_add.obj
+         Release\M_O_detail.obj
+         Release\M_P_add.obj
+         Release\M_P_detail.obj
+         Release\Order.obj
+         Release\Product.obj
+         Release\SkinHeaderCtrl.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         CenterStar.vcxproj -> d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\Release\CenterStar.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\Release\CenterStar.exe;#1" /manifest Release\CenterStar.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\CenterStar.unsuccessfulbuild”。
+         正在对“Release\CenterStar.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\用户目录\我的文档\visual studio 2010\Projects\CenterStar\CenterStar\CenterStar.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.83

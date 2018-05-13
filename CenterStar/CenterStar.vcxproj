@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44698B4E-B51E-4D53-824A-4C5960D2C512}</ProjectGuid>
+    <RootNamespace>CenterStar</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>NotSet</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\MySQL\MySQL Server 5.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\MySQL\MySQL Server 5.5\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\MySQL\MySQL Server 5.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\MySQL\MySQL Server 5.5\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libmysql.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap10.bmp" />
+    <None Include="res\bitmap11.bmp" />
+    <None Include="res\bitmap12.bmp" />
+    <None Include="res\bitmap13.bmp" />
+    <None Include="res\bitmap14.bmp" />
+    <None Include="res\bitmap15.bmp" />
+    <None Include="res\bitmap16.bmp" />
+    <None Include="res\bitmap17.bmp" />
+    <None Include="res\bitmap18.bmp" />
+    <None Include="res\bitmap19.bmp" />
+    <None Include="res\bitmap2.bmp" />
+    <None Include="res\bitmap20.bmp" />
+    <None Include="res\bitmap21.bmp" />
+    <None Include="res\bitmap22.bmp" />
+    <None Include="res\bitmap23.bmp" />
+    <None Include="res\bitmap24.bmp" />
+    <None Include="res\bitmap25.bmp" />
+    <None Include="res\bitmap26.bmp" />
+    <None Include="res\bitmap27.bmp" />
+    <None Include="res\bitmap28.bmp" />
+    <None Include="res\bitmap29.bmp" />
+    <None Include="res\bitmap3.bmp" />
+    <None Include="res\bitmap30.bmp" />
+    <None Include="res\bitmap31.bmp" />
+    <None Include="res\bitmap32.bmp" />
+    <None Include="res\bitmap33.bmp" />
+    <None Include="res\bitmap34.bmp" />
+    <None Include="res\bitmap35.bmp" />
+    <None Include="res\bitmap36.bmp" />
+    <None Include="res\bitmap37.bmp" />
+    <None Include="res\bitmap38.bmp" />
+    <None Include="res\bitmap39.bmp" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\bitmap40.bmp" />
+    <None Include="res\bitmap41.bmp" />
+    <None Include="res\bitmap42.bmp" />
+    <None Include="res\bitmap43.bmp" />
+    <None Include="res\bitmap44.bmp" />
+    <None Include="res\bitmap45.bmp" />
+    <None Include="res\bitmap46.bmp" />
+    <None Include="res\bitmap47.bmp" />
+    <None Include="res\bitmap48.bmp" />
+    <None Include="res\bitmap49.bmp" />
+    <None Include="res\bitmap5.bmp" />
+    <None Include="res\bitmap50.bmp" />
+    <None Include="res\bitmap51.bmp" />
+    <None Include="res\bitmap52.bmp" />
+    <None Include="res\bitmap53.bmp" />
+    <None Include="res\bitmap54.bmp" />
+    <None Include="res\bitmap55.bmp" />
+    <None Include="res\bitmap56.bmp" />
+    <None Include="res\bitmap57.bmp" />
+    <None Include="res\bitmap58.bmp" />
+    <None Include="res\bitmap59.bmp" />
+    <None Include="res\bitmap6.bmp" />
+    <None Include="res\bitmap60.bmp" />
+    <None Include="res\bitmap61.bmp" />
+    <None Include="res\bitmap62.bmp" />
+    <None Include="res\bitmap7.bmp" />
+    <None Include="res\bitmap8.bmp" />
+    <None Include="res\bitmap9.bmp" />
+    <None Include="res\CenterStar.ico" />
+    <None Include="res\CenterStar.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CenterStar.h" />
+    <ClInclude Include="CenterStarDlg.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="DLEdit.h" />
+    <ClInclude Include="history.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="MyListCtrl.h" />
+    <ClInclude Include="M_C_add.h" />
+    <ClInclude Include="M_C_detail.h" />
+    <ClInclude Include="M_I_detail.h" />
+    <ClInclude Include="M_I_history.h" />
+    <ClInclude Include="M_I_io.h" />
+    <ClInclude Include="M_O_add.h" />
+    <ClInclude Include="M_O_detail.h" />
+    <ClInclude Include="M_P_add.h" />
+    <ClInclude Include="M_P_detail.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SkinHeaderCtrl.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CenterStar.cpp" />
+    <ClCompile Include="CenterStarDlg.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DLEdit.cpp" />
+    <ClCompile Include="history.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="MyListCtrl.cpp" />
+    <ClCompile Include="M_C_add.cpp" />
+    <ClCompile Include="M_C_detail.cpp" />
+    <ClCompile Include="M_I_detail.cpp" />
+    <ClCompile Include="M_I_history.cpp" />
+    <ClCompile Include="M_I_io.cpp" />
+    <ClCompile Include="M_O_add.cpp" />
+    <ClCompile Include="M_O_detail.cpp" />
+    <ClCompile Include="M_P_add.cpp" />
+    <ClCompile Include="M_P_detail.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="SkinHeaderCtrl.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CenterStar.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="CenterStar.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
